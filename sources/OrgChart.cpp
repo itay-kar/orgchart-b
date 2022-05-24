@@ -123,7 +123,7 @@ namespace ariel
                     for (; i < nodes.size(); i++)
                     {
                         // cout << i << " : " << endl
-                             << nodes[i]->get_data() << endl;
+                            //  << nodes[i]->get_data() << endl;
                         nodes[i]->printSubtree(cout, "");
                         // cout << endl;
                     }
