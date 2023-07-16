@@ -33,9 +33,6 @@ StudentTest1.cpp:
 StudentTest2.cpp: 
 	curl https://raw.githubusercontent.com/ShauliTaragin/Orgchart-A/main/Test.cpp > $@
 
-# Dvir Gev
-StudentTest3.cpp: 
-	curl https://raw.githubusercontent.com/dvirGev/CPP--Ex5-par1/main/Test.cpp > $@
 
 tidy:
 	clang-tidy $(SOURCES) $(HEADERS) $(TIDY_FLAGS) --
